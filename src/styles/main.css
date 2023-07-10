@@ -1,0 +1,19 @@
+img{
+    width: 180px;
+    height: 200px; 
+}
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+    justify-items: center;
+  }
+.card {
+    border: solid 2px rgb(58, 58, 58);
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 5px;
+    text-align: center;
+}
