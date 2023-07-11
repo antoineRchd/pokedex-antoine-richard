@@ -1,6 +1,6 @@
 import React from 'react';
-import './PokemonDetail.css';
 import PokemonDetail from '../../composents/PokemonDetail/PokemonDetail';
+import '../../styles/main.css'
 
 function pokemon() {
   return (

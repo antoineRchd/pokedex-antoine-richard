@@ -1,6 +1,6 @@
 import React from 'react';
-import '../../styles/main.css';
 import PokemonList from '../../composents/PokemonList/PokemonList';
+import '../../styles/main.css'
 
 function pokedex() {
   return (

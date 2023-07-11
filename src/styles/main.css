@@ -2,13 +2,13 @@ img{
     width: 180px;
     height: 200px; 
 }
-.container {
+.container-pokemon {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 20px;
     justify-items: center;
   }
-.card {
+.card-pokemon {
     border: solid 2px rgb(58, 58, 58);
     padding-left: 40px;
     padding-right: 40px;

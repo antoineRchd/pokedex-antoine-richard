@@ -2,7 +2,6 @@ import React from 'react';
 import { useParams } from 'react-router-dom';
 import { Link } from 'react-router-dom';
 import pokemonData from "../../data/pokemonData.json"
-import './PokemonDetail.css';
 
 const Pokemon = () => {
     const { id } = useParams();
