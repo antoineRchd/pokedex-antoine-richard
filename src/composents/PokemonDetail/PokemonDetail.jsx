@@ -21,12 +21,12 @@ const Pokemon = () => {
                 <h1>{pokemon.nom}</h1>
                 <p>{pokemon.type.join("/")}</p>
                 <p>{pokemon.id}/151</p>
-                <p>{pokemon.PV}</p>
-                <p>{pokemon.Attaque}</p>
-                <p>{pokemon.Defense}</p>
-                <p>{pokemon.AttaqueSpeciale}</p>
-                <p>{pokemon.DéfenseSpeciale}</p>
-                <p>{pokemon.Vitesse}</p>
+                <p>HP {pokemon.PV}</p>
+                <p>Attaque {pokemon.Attaque}</p>
+                <p>Défense {pokemon.Defense}</p>
+                <p>Atq Spe {pokemon.AttaqueSpeciale}</p>
+                <p>Def Spe {pokemon.DéfenseSpeciale}</p>
+                <p>Vitesse {pokemon.Vitesse}</p>
             </div>
         </>
     );
